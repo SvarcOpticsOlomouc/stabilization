@@ -14,7 +14,7 @@ Further follows the specification of the format of each dataset:
 Fig4
 
 
-datasets are in format [time (s), data], where
+datasets are in the format [time (s), data], where
 
 
 data = phase (degrees) for Fig4a
@@ -29,9 +29,9 @@ Fig5
 datasets formats:
 
 
-"data_Fig5a.npy" is in format [time (s), transmittance, reflectance]
+"data_Fig5a.npy" is in the format [time (s), transmittance, reflectance]
 
-"data_Fig5b.npy" is in format [time (min), transmittance, reflectance]
+"data_Fig5b.npy" is in the format [time (min), transmittance, reflectance]
 
 
 "data_Fig5a.npy" describes full tunability on continuously detected signal
