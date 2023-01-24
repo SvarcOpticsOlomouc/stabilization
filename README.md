@@ -1,41 +1,41 @@
 # Sub-0.1 degree phase locking of a single-photon interferometer
 Datasets and codes from a scientific article xxx. Datasets are in .npy format with the filename "FigXcolor". Here "X" corresponds to the Fig indication (for example 4c), and "color" corresponds to the color of the specific curve in each Fig. The clue is following:
 
-"Orange" - signal data
+  "Orange" - signal data
 
-"Red" - reference data
+  "Red" - reference data
 
-"Black" - phase drift compensated (it is equal to a drift of non-stabilized interferometer)
-
-
-Further follows the specification of the format of each dataset:
+  "Black" - phase drift compensated (it is equal to a drift of non-stabilized interferometer)
 
 
-Fig4
+  Further follows the specification of the format of each dataset:
 
 
-datasets are in the format [time (s), data], where
+  Fig4
 
 
-data = phase (degrees) for Fig4a
-
-data = normalized spectral power density for Fig4b
-
-data = Allan deviation (degrees) for Fig4c
-
-Fig5
+  datasets are in the format [time (s), data], where
 
 
-datasets formats:
+  data = phase (degrees) for Fig4a
+
+  data = normalized spectral power density for Fig4b
+
+  data = Allan deviation (degrees) for Fig4c
+
+  Fig5
 
 
-"data_Fig5a.npy" is in the format [time (s), transmittance, reflectance]
-
-"data_Fig5b.npy" is in the format [time (min), transmittance, reflectance]
+  datasets formats:
 
 
-"data_Fig5a.npy" describes full tunability on continuously detected signal
+  "data_Fig5a.npy" is in the format [time (s), transmittance, reflectance]
 
-"data_Fig5b.npy" describes full tunability on single-photon signal
+  "data_Fig5b.npy" is in the format [time (min), transmittance, reflectance]
+
+
+  "data_Fig5a.npy" describes full tunability on continuously detected signal
+
+  "data_Fig5b.npy" describes full tunability on single-photon signal
 
 Additionally, an electronic scheme of the PID controller is enclosed as "PID_scheme.pdf"
