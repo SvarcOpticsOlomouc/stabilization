@@ -37,3 +37,5 @@ datasets formats:
 "data_Fig5a.npy" describes full tunability on continuously detected signal
 
 "data_Fig5b.npy" describes full tunability on single-photon signal
+
+Additionally, an electronic scheme of the PID controller is enclosed as "PID_scheme.pdf"
