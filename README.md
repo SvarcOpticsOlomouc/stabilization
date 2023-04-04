@@ -1,5 +1,5 @@
 # Sub-0.1 degree phase locking of a single-photon interferometer
-Datasets and codes from a scientific article xxx. Datasets are in .npy format with the filename "FigXcolor". Here "X" corresponds to the Fig indication (for example 4c), and "color" corresponds to the color of the specific curve in each Fig. The clue is following:
+Datasets and codes from a scientific article https://doi.org/10.1364/OE.480569. Datasets are in .npy format with the filename "FigXcolor". Here "X" corresponds to the Fig indication (for example 4c), and "color" corresponds to the color of the specific curve in each Fig. The clue is following:
 
   "Orange" - signal data
 
